@@ -1,0 +1,124 @@
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 25px;
+    width: 324px;
+    border-radius: 6%;
+    height: 362px;
+    background-color: #1f2630;
+    color: white;
+    /* transform: translate(50%, 50%); */
+  }
+
+  .text>h1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #fcffffd3;
+    font-size: 23px;
+  }
+
+  .text>img {
+    background-color: #262f389c;
+    width: 40px;
+    height: 40px;
+    /* scale: 0; */
+    padding: 12px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    object-position: 50% 50%;
+  }
+
+  .text>p {
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #fcffff77;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* align-items: center; */
+  }
+
+  .rating>button {
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #262f38;
+    color: #fcffffc2;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .rating>button:hover{
+    background-color: #fc7614;
+    color: white;
+  }
+  .rating>button:focus{
+    background-color: rgb(212, 211, 211);
+    color: white;
+  }
+
+  .submit {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #fc7614;
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+
+.submit:hover{
+  background-color: white;
+  color: #fc7614;
+}
+.container {
+  width: 1060px;
+  height: 500px;
+  background-color: #1a1515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.photo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.photo>img {
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.photo>div {
+  color: #fc7614;
+  background-color: #262f38;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
